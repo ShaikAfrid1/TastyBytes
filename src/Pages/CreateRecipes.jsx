@@ -21,49 +21,49 @@ const CreateRecipes = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit(submitHandler)}>
+    <form
+      onSubmit={handleSubmit(submitHandler)}
+      className="flex flex-col gap-6  p-8 rounded-2xl shadow-xl"
+    >
       <input
-        className="border-b outline-0 p-2"
+        className="border-b outline-0 p-3 rounded-md "
         {...register("image")}
         type="url"
         placeholder="Enter Image URL!"
       />
 
-      <br />
       <small className="text-sm text-red-400">Test Error message!</small>
-      <br />
 
       <input
-        className="border-b outline-0 p-2"
+        className="border-b outline-0 p-3 rounded-md"
         {...register("title")}
         type="text"
         placeholder="Recipe Title!"
       />
 
-      <br />
       <textarea
-        className="border-b outline-0 p-2 w-2xl"
+        className="border-b outline-0 p-3 rounded-md"
         {...register("Description")}
         type="text"
         placeholder="Start from here!"
       ></textarea>
 
       <textarea
-        className="border-b outline-0 p-2 w-2xl"
+        className="border-b outline-0 p-3 rounded-md"
         {...register("Ingredients")}
         type="text"
         placeholder="Add Ingredients by Comma!"
       ></textarea>
 
       <textarea
-        className="border-b outline-0 p-2 w-2xl"
+        className="border-b outline-0 p-3 rounded-md"
         {...register("Instructions")}
         type="text"
         placeholder="Write Instructions!"
       ></textarea>
 
       <select
-        className="border-b outline-0 p-3 w-xl"
+        className="border-b outline-0 p-3 rounded-md"
         {...register("Category")}
         type="text"
       >
