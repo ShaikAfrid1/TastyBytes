@@ -39,7 +39,7 @@ const Home = () => {
 
       <div className="grid sm:grid-cols-2 gap-6 mb-16">
         <div
-          onClick={getProduct} /*recipesHandler*/
+          onClick={recipesHandler} /*recipesHandler*/
           className="bg-[#6A9C89] p-6 rounded-xl shadow-md hover:shadow-lg hover:bg-[#90bbab] transition"
         >
           <h2 className="text-2xl font-semibold text-black mb-2">
