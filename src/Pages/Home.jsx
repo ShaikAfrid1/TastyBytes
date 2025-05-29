@@ -11,7 +11,7 @@ const Home = () => {
     Navigate("/createrecipes");
   };
   return (
-    <div className="px-6 py-10 max-w-4xl mx-auto text-center">
+    <div className="px-6 py-10 max-w-4xl mx-auto min-h-full text-center">
       <img
         src="https://images.unsplash.com/photo-1708335583165-57aa131a4969?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Delicious Food"

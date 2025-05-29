@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="bg-[#16423C] w-h-screen px-6 py-16 text-black font-sans">
+    <section className="bg-[#16423C] min-h-full w-screen px-6 py-16 text-black font-sans">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="flex justify-center">
           <img
@@ -58,7 +58,7 @@ const About = () => {
             With a keen eye for UI and a heart full of home-cooked nostalgia,
             Afrid turned a simple idea into a tasteful journey. When he's not
             coding, he's probably thinking about biryani, debugging life, or
-            designing something delicious.
+            designing <br /> something delicious.
           </p>
 
           <div className="flex gap-4 items-center">

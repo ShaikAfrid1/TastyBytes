@@ -28,7 +28,7 @@ const CreateRecipes = () => {
   return (
     <form
       onSubmit={handleSubmit(submitHandler)}
-      className="flex flex-col gap-6  p-8 rounded-2xl shadow-xl"
+      className="flex flex-col gap-6 mb-3  p-8 rounded-2xl shadow-xl"
     >
       <input
         className="border-b outline-0 p-3 rounded-md "
@@ -36,7 +36,7 @@ const CreateRecipes = () => {
         type="url"
         placeholder="Enter Image URL!"
       />
-      
+
       {/* <small className="text-sm text-red-400">Test Error message!</small> */}
 
       <input
