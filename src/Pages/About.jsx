@@ -30,7 +30,7 @@ const About = () => {
             fluff, and maximum taste. Every byte you save here might be your
             next comfort food.
           </p>
-          <p className="italic text-sm mt-6 text-white">
+          <p className="italic text-sm mt-6 text-white animate-pulse">
             <b>
               "In every recipe, there’s a story. In every story, a memory." 🧡
             </b>
@@ -49,8 +49,9 @@ const About = () => {
             Meet the <b className="text-white">Creator</b>
           </h2>
           <p className="text-md mb-2">
-            <strong>Afrid Shaik</strong>, a passionate frontend developer,
-            cofee-lover ☕, and the creative brain behind
+            <strong className="text-white font-black">Afrid Shaik</strong>, a
+            passionate frontend developer, cofee-lover ☕, and the creative
+            brain behind
             <span className="text-[#C4DAD2] font-bold"> TastyBytes</span>.
           </p>
           <p className="text-sm text-black">

@@ -1,4 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+  const Navigate = useNavigate();
+
+  const recipesHandler = () => {
+    Navigate("/recipes");
+  };
+
+  const createHandler = () => {
+    Navigate("/createrecipes");
+  };
   return (
     <div className="px-6 py-10 max-w-4xl mx-auto text-center">
       <img
@@ -18,7 +29,10 @@ const Home = () => {
       </p>
 
       <div className="grid sm:grid-cols-2 gap-6 mb-16">
-        <div className="bg-[#6A9C89] p-6 rounded-xl shadow-md hover:shadow-lg hover:bg-[#90bbab] transition">
+        <div
+          onClick={recipesHandler}
+          className="bg-[#6A9C89] p-6 rounded-xl shadow-md hover:shadow-lg hover:bg-[#90bbab] transition"
+        >
           <h2 className="text-2xl font-semibold text-black mb-2">
             🍜 Explore Recipes
           </h2>
@@ -28,7 +42,10 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="bg-[#6A9C89] p-6 rounded-xl shadow-md hover:shadow-lg hover:bg-[#90bbab] transition">
+        <div
+          onClick={createHandler}
+          className="bg-[#6A9C89] p-6 rounded-xl shadow-md hover:shadow-lg hover:bg-[#90bbab] transition"
+        >
           <h2 className="text-2xl font-semibold text-black mb-2">
             🧑‍🍳 Create Your Own
           </h2>
@@ -39,7 +56,7 @@ const Home = () => {
         </div>
       </div>
 
-      <p className="text-black italic ">
+      <p className="text-black italic animate-pulse ">
         <b>
           "Cooking is like love — it should be entered into with abandon or not
           at all." – Harriet Van Horne
