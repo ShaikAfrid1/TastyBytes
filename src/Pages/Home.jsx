@@ -1,6 +1,15 @@
+import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const getProduct = async () => {
+    try {
+      const { data } = await axios.get("https://fakestoreapi.com/products");
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
   const Navigate = useNavigate();
 
   const recipesHandler = () => {
@@ -30,7 +39,7 @@ const Home = () => {
 
       <div className="grid sm:grid-cols-2 gap-6 mb-16">
         <div
-          onClick={recipesHandler}
+          onClick={getProduct} /*recipesHandler*/
           className="bg-[#6A9C89] p-6 rounded-xl shadow-md hover:shadow-lg hover:bg-[#90bbab] transition"
         >
           <h2 className="text-2xl font-semibold text-black mb-2">
