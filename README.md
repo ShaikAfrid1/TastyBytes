@@ -10,9 +10,7 @@ Built with ❤️, 💻, and a sprinkle of 🧂
 
 ## 🍳 Features
 
-- 🔍 Search recipes by name
 - 📋 Full ingredients & instructions
-- 📱 Mobile-first responsive layout
 - 🖼️ Clean grid UI for recipes
 - 🎨 Simple and attractive design
 - 🧠 Easy to maintain and extend
@@ -25,21 +23,6 @@ Built with ❤️, 💻, and a sprinkle of 🧂
 - **Tailwind-Css**
 - **React.js**
 - **Deployed on Netlify**
-
----
-
-## 📁 Folder Structure
-
-```bash
-TastyBytes/
-├── index.html
-├── style.css
-├── script.js
-├── /images
-│   └── (Recipe images & icons)
-├── /data
-│   └── recipes.js (or JSON)
-└── README.md
 
 ---
 
