@@ -27,6 +27,7 @@ Built with ❤️, 💻, and a sprinkle of 🧂
 ---
 
 🔮 Future Enhancements
+
 ⭐ Favorite / Bookmark recipes
 
 🌚 Dark mode toggle
@@ -38,5 +39,7 @@ Built with ❤️, 💻, and a sprinkle of 🧂
 ---
 
 🙋 About Me
+
 👨‍💻 Shaik Afrid – Frontend Dev
+
 GitHub: @ShaikAfrid1
