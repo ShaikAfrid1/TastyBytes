@@ -15,7 +15,7 @@ const About = () => {
             About <span className="text-[#C4DAD2]">TastyBytes</span>
           </h1>
           <p className="text-lg leading-relaxed mb-4">
-            Welcome to your new kitchen sidekick. <strong>TastyBytes</strong>
+            Welcome to your new kitchen sidekick. <strong>TastyBytes </strong>
             isn't just another recipe site. It's a flavorful community where
             passion meets the plate. 🍽️✨
           </p>
