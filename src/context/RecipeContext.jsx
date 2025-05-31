@@ -110,6 +110,10 @@ const RecipeContext = (props) => {
     },
   ]);
 
+  // useEffect(() => {
+  //   setdata(JSON.parse(localStorage.getItem("recipes")) || []);
+  // }, []);
+
   return (
     <recipecontext.Provider value={{ data, setdata }}>
       {props.children}
@@ -118,3 +122,4 @@ const RecipeContext = (props) => {
 };
 
 export default RecipeContext;
+/*   */

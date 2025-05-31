@@ -1,15 +1,15 @@
-import axios from "axios";
+// import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-  const getProduct = async () => {
-    try {
-      const { data } = await axios.get("https://fakestoreapi.com/products");
-      console.log(data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  // const getProduct = async () => {
+  //   try {
+  //     const { data } = await axios.get("https://fakestoreapi.com/products");
+  //     console.log(data);
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
   const Navigate = useNavigate();
 
   const recipesHandler = () => {

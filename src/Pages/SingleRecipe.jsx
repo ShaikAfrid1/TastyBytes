@@ -20,12 +20,12 @@ const SingleRecipe = () => {
     },
   });
 
-  const submitHandler = (recipe) => {
+  const updateHandler = (recipe) => {
     const index = data.findIndex((recipe) => params.id == recipe.id);
     const copyData = [...data];
     copyData[index] = { ...copyData[index], ...recipe };
-    console.log(index);
     setdata(copyData);
+    localStorage.setItem("recipes", JSON.stringify(copyData));
     toast.success("Recipe Updated!");
   };
 
@@ -56,7 +56,7 @@ const SingleRecipe = () => {
 
         <div className="right w-1/2 p-2">
           <form
-            onSubmit={handleSubmit(submitHandler)}
+            onSubmit={handleSubmit(updateHandler)}
             className="flex flex-col gap-6  p-8 rounded-2xl shadow-xl"
           >
             <input

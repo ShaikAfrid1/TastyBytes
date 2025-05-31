@@ -7,4 +7,4 @@ const AppLayout = ({ children }) => {
 };
 
 export default AppLayout;
-//w-screen h-screen   font-thin py-10 px-[10%]
+
